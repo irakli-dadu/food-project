@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Georgian Cuisine</title>
 
     <!-- JS LIBRARIES -->
@@ -560,7 +561,7 @@
                 eating well today. You can cancel or pause anytime. And the
                 first meal is on us!
               </p>
-              <form action="#" class="cta-form">
+              <form action="" class="cta-form">
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
@@ -580,6 +581,24 @@
                     required
                   />
                 </div>
+                <div>
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter Password..."
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="Re-password">Repeat Password</label>
+                  <input
+                    type="password"
+                    id="Re-password"
+                    placeholder="Repeat Password..."
+                    required
+                  />
+                </div>
 
                 <div>
                   <label for="select-where"> Where did you hear from us?</label>
@@ -593,7 +612,7 @@
                   </select>
                 </div>
 
-                <button class="btn btn-form">Sign up now</button>
+                <button class="btn btn-form" type="submit">Sign up now</button>
               </form>
             </div>
 
@@ -684,5 +703,6 @@
         </div>
       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
 </html>
