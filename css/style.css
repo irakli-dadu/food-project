@@ -34,14 +34,14 @@
   display: inline-block;
   text-decoration: none;
   color: #333;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 700;
   transition: all 0.3s linear;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #e26465;
 }
 
 .main-nav-link.nav-cta:link,
@@ -54,7 +54,7 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #c29bdd;
 }
 
 /* MOBILE NAVIGATION */
@@ -207,17 +207,18 @@
 
 .section-how {
   padding: 9.6rem 0;
+  background-color: #f0e7be;
+  border: 5px dotted #c49eda;
 }
-
 .step-number {
-  font-size: 8.6rem;
+  font-size: 80px;
   font-weight: 600;
-  color: #ddd;
+  color: #fff;
   margin-bottom: 1.2rem;
 }
 
 .step-description {
-  font-size: 1.8rem;
+  font-size: 22px;
   line-height: 1.8;
 }
 
@@ -265,6 +266,7 @@
 /*********************/
 
 .section-meals {
+  background-color: #fff0b7;
   padding: 9.6rem 0;
 }
 
@@ -413,22 +415,29 @@
 /************/
 
 .section-pricing {
+  background-color: #cedd69;
   padding: 9.6rem 0;
 }
 
+.pricing-options-wrapper {
+  display: flex;
+}
+
 .pricing-plan {
+  background-color: #fff;
   border-radius: 11px;
-  width: 75%;
+  max-width: 400px;
+  width: 100%;
 }
 
 .pricing-plan-starter {
   justify-self: end;
   padding: 4.6rem;
-  border: 2px solid #fdf2e9;
+  border: 2px solid whitesmoke;
 }
 
 .pricing-plan-complete {
-  background-color: #fdf2e9;
+  background-color: #e8cb7c;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;

@@ -4,40 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Georgian Cuisine, with culture and ancient history"
-    />
+    <meta name="description" content="Georgian Cuisine, with culture and ancient history"/>
+    <!-- links -->
     <link rel="icon" href="img/logomogo.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Georgian Cuisine</title>
-
     <!-- JS LIBRARIES -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script
-      defer
-      src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"
-    ></script>
-
-    <!-- CUSTOM JS -->
-    <script defer src="js/script.js"></script>
+    <script type="module"src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -240,7 +221,65 @@
             </div>
           </div>
 
-          <div class="diets">
+          <div class="meals">
+            <img
+              src="img/meals/meal-3.jpg"
+              class="meal-img"
+              alt="Mtsvadi"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag-vegetarian">Real Deal</span>
+              </div>
+              <p class="meal-title">Mtsvadi (Georgian Barbecue)</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>335</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="restaurant-outline">
+                  </ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meals">
+            <img
+              src="img/meals/meal-3.jpg"
+              class="meal-img"
+              alt="Mtsvadi"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag-vegetarian">Real Deal</span>
+              </div>
+              <p class="meal-title">Mtsvadi (Georgian Barbecue)</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>335</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="restaurant-outline">
+                  </ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- <div class="diets">
             <h3 class="heading-tertiary">We can offer you another meals with any diets too:</h3>
             <ul class="list">
               <li class="list-item">
@@ -276,7 +315,7 @@
                 <span>Kid-friendly</span>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
 
         <div class="container all-recipes">
@@ -428,7 +467,9 @@
           </h2>
         </div>
 
-        <div class="container grid grid-2-cols margin-bottom-md">
+        <!-- need to do SLIDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEeee -->
+
+        <div class="pricing-options-wrapper">
           <div class="pricing-plan pricing-plan-starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
@@ -485,8 +526,64 @@
               <a href="#" class="btn btn-full">Be Like Georgian!</a>
             </div>
           </div>
-        </div>
 
+          <div class="pricing-plan pricing-plan-starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>399</p>
+              <p class="plan-text">per month. That's just $13 per meal!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>1 meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Order from 11am to 9pm</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delivery is free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn-full">Be Like Georgian!</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan-starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>399</p>
+              <p class="plan-text">per month. That's just $13 per meal!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>1 meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Order from 11am to 9pm</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delivery is free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn-full">Be Like Georgian!</a>
+            </div>
+          </div>
+        </div>
+        <!-- slider endsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
         <div class="container grid">
           <aside class="plan-details">
             Prices include all applicable taxes. You can cancel at any time.
@@ -683,6 +780,6 @@
         </div>
       </footer>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="js/script.js"></script>
   </body>
 </html>

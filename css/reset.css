@@ -68,7 +68,7 @@ html {
 
 body {
   background-color: #f5ebc7;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Caveat', cursive;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -140,7 +140,7 @@ body {
   display: block;
   color: #cf711f;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.75px;
   margin-bottom: 1.6rem;
@@ -163,7 +163,6 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   transition: all 0.3s linear;
-  /* Only neccessary for .btn */
   border: none;
   cursor: pointer;
 }
@@ -177,6 +176,7 @@ body {
 .btn-full:hover,
 .btn-full:active {
   background-color: #becd7a;
+  color: #e26465;
 }
 
 .btn-outline:link,
@@ -260,8 +260,4 @@ body {
 
 .text-center {
   text-align: center;
-}
-
-strong {
-  font-weight: 500;
 }
