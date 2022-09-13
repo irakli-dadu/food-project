@@ -9,7 +9,9 @@
     <link rel="icon" href="img/logomogo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -19,6 +21,7 @@
     <script type="module"src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script defer src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -85,6 +88,197 @@
         </div>
       </section>
 
+        <!-- MEALS -->
+        <section class="section-meals" id="meals">
+          <div class="container text-center">
+            <span class="subheading">Meals</span>
+            <h2 class="heading-secondary">
+              Georgian Cuisine APP chooses from 1,000+ recipes
+            </h2>
+          </div>
+  
+          <div class="container grid grid-3-cols margin-bottom-md">
+            <div class="meals">
+              <img
+                src="img/meals/meal-1.jpg"
+                class="meal-img"
+                alt="Georgian Khachapuri"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegetarian">Real Deal</span>
+                </div>
+                <p class="meal-title">Imeretian Khachapuri</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                    <span><strong>335</strong> calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="restaurant-outline">
+                    </ion-icon>
+                    <span>NutriScore &reg; <strong>74</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                    <span><strong>4.9</strong> rating (537)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="meals">
+              <img
+                src="img/meals/meal-2.jpg"
+                class="meal-img"
+                alt="salataimg"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegan">Vegetarian</span>
+                  <span class="tag tag-paleo">too :)</span>
+                </div>
+                <p class="meal-title">Georgian Salad with Walnut</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                    <span><strong>200</strong> calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="restaurant-outline">
+                    </ion-icon>
+                    <span>NutriScore &reg; <strong>92</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                    <span><strong>5.0</strong> rating (441)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="meals">
+              <img
+                src="img/meals/meal-3.jpg"
+                class="meal-img"
+                alt="Mtsvadi"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegetarian">No Veggies</span>
+                </div>
+                <p class="meal-title">Mtsvadi (Georgian Barbecue)</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                    <span><strong>400</strong> calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="restaurant-outline">
+                    </ion-icon>
+                    <span>NutriScore &reg; <strong>86</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                    <span><strong>5.0</strong> rating (537)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="meals">
+              <img
+                src="img/meals/meal-4.jpg"
+                class="meal-img"
+                alt="Khinkali"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegetarian">Real Deal</span>
+                </div>
+                <p class="meal-title">Khinkali(classic)</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                    <span><strong>1/185</strong> calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="restaurant-outline">
+                    </ion-icon>
+                    <span>NutriScore &reg; <strong>90</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                    <span><strong>5.0</strong> rating (987)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="meals">
+              <img
+                src="img/meals/meal-5.jpg"
+                class="meal-img"
+                alt="elarji"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegetarian">Oh Yeah!</span>
+                </div>
+                <p class="meal-title">Elarji</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                    <span><strong>407</strong> calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="restaurant-outline">
+                    </ion-icon>
+                    <span>NutriScore &reg; <strong>89</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                    <span><strong>4.9</strong> rating (755)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="meals">
+              <img
+                src="img/meals/meal-6.jpg"
+                class="meal-img"
+                alt="shqmeruli"
+              />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegetarian">Oh Yeah!</span>
+                </div>
+                <p class="meal-title">Shqmeruli(From Racha with Love)</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                    <span><strong>460</strong> calories</span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="restaurant-outline">
+                    </ion-icon>
+                    <span>NutriScore &reg; <strong>90</strong></span>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                    <span><strong>4.9</strong> rating (600)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div class="container all-recipes">
+            <a href="#" class="link">See all recipes &rarr;</a>
+          </div>
+        </section>
+
       <!-- HOW IT WORKS -->
       <section class="section-how" id="how">
         <div class="container">
@@ -149,177 +343,6 @@
               alt="iPhone app delivery screen"
             />
           </div>
-        </div>
-      </section>
-
-      <!-- MEALS -->
-      <section class="section-meals" id="meals">
-        <div class="container text-center">
-          <span class="subheading">Meals</span>
-          <h2 class="heading-secondary">
-            Georgian Cuisine APP chooses from 1,000+ recipes
-          </h2>
-        </div>
-
-        <div class="container grid grid-3-cols margin-bottom-md">
-          <div class="meals">
-            <img
-              src="img/meals/meal-1.jpg"
-              class="meal-img"
-              alt="Georgian Khachapuri"
-            />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag-vegetarian">Real Deal</span>
-              </div>
-              <p class="meal-title">Imeretian Khachapuri</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>335</strong> calories</span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="restaurant-outline">
-                  </ion-icon>
-                  <span>NutriScore &reg; <strong>74</strong></span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537)</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="meals">
-            <img
-              src="img/meals/meal-2.jpg"
-              class="meal-img"
-              alt="salataimg"
-            />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag-vegan">Vegetarian</span>
-                <span class="tag tag-paleo">too :)</span>
-              </div>
-              <p class="meal-title">Georgian Salad with Walnut</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>200</strong> calories</span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="restaurant-outline">
-                  </ion-icon>
-                  <span>NutriScore &reg; <strong>92</strong></span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>5.0</strong> rating (441)</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="meals">
-            <img
-              src="img/meals/meal-3.jpg"
-              class="meal-img"
-              alt="Mtsvadi"
-            />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag-vegetarian">Real Deal</span>
-              </div>
-              <p class="meal-title">Mtsvadi (Georgian Barbecue)</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>335</strong> calories</span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="restaurant-outline">
-                  </ion-icon>
-                  <span>NutriScore &reg; <strong>74</strong></span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537)</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="meals">
-            <img
-              src="img/meals/meal-3.jpg"
-              class="meal-img"
-              alt="Mtsvadi"
-            />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag-vegetarian">Real Deal</span>
-              </div>
-              <p class="meal-title">Mtsvadi (Georgian Barbecue)</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>335</strong> calories</span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="restaurant-outline">
-                  </ion-icon>
-                  <span>NutriScore &reg; <strong>74</strong></span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537)</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- <div class="diets">
-            <h3 class="heading-tertiary">We can offer you another meals with any diets too:</h3>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Vegetarian</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Vegan</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Pescatarian</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Gluten-free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Lactose-free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Keto Paleo</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Low FODMAP</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Kid-friendly</span>
-              </li>
-            </ul>
-          </div> -->
-        </div>
-
-        <div class="container all-recipes">
-          <a href="#" class="link">See all recipes &rarr;</a>
         </div>
       </section>
 
@@ -468,127 +491,113 @@
         </div>
 
         <!-- need to do SLIDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEeee -->
-
-        <div class="pricing-options-wrapper">
-          <div class="pricing-plan pricing-plan-starter">
-            <header class="plan-header">
-              <p class="plan-name">Starter</p>
-              <p class="plan-price"><span>$</span>399</p>
-              <p class="plan-text">per month. That's just $13 per meal!</p>
-            </header>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>1 meal per day</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Order from 11am to 9pm</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Delivery is free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="close-outline"></ion-icon>
-              </li>
-            </ul>
-            <div class="plan-sign-up">
-              <a href="#" class="btn btn-full">Be Like Georgian!</a>
+        <section class="pricing-section">
+          <div class="pricing-box-wrapper">
+            <!-- option 1 -->
+            <div class="option-box-1">
+              <h3 class="option-box-header">Regular</h3>
+              <p class="option-box-txt">Depends on your activity</p>
+              <ul class="option-box-lists">
+                <div class="li-list-div">
+                  <li class="option-box-li">Public Adviser</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Diet Plan</li>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Coach</li>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Free Delivery</li>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </ul>
+              <span class="price-per-option-1">75$</span>
+            </div>
+            <!-- option-2 -->
+            <div class="option-box-1 option-box-2">
+              <h3 class="option-box-header">Premium</h3>
+              <p class="option-box-txt">Activity is On!</p>
+              <ul class="option-box-lists">
+                <div class="li-list-div">
+                  <li class="option-box-li">Public Adviser</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Diet Plan</li>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Coach</li>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Free Delivery</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+              </ul>
+              <span class="price-per-option-1">89$</span>
+            </div>
+            <!-- option-3 -->
+            <div class="option-box-1 option-box-3">
+              <h3 class="option-box-header">Super</h3>
+              <p class="option-box-txt">You're Active!</p>
+              <ul class="option-box-lists">
+                <div class="li-list-div">
+                  <li class="option-box-li">Public Adviser</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Diet Plan</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Coach</li>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Free Delivery</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+              </ul>
+              <span class="price-per-option-1">119$</span>
+            </div>
+            <!-- option-4 -->
+            <div class="option-box-1 option-box-4">
+              <h3 class="option-box-header">Hardcore!</h3>
+              <p class="option-box-txt">You Need Us!</p>
+              <ul class="option-box-lists">
+                <div class="li-list-div">
+                  <li class="option-box-li">Public Adviser</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Diet Plan</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Personal Coach</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="li-list-div">
+                  <li class="option-box-li">Free Delivery</li>
+                  <i class="fa-solid fa-check"></i>
+                </div>
+              </ul>
+              <span class="price-per-option-1">159$</span>
             </div>
           </div>
+        </section>
 
-          <div class="pricing-plan pricing-plan-complete">
-            <header class="plan-header">
-              <p class="plan-name">Complete</p>
-              <p class="plan-price"><span>$</span>649</p>
-              <p class="plan-text">per month. That's just $11 per meal!</p>
-            </header>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span><strong>2 meal</strong> per day</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Order <strong>24/7</strong></span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Delivery is free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Get access to latest recipes</span>
-              </li>
-            </ul>
-            <div class="plan-sign-up">
-              <a href="#" class="btn btn-full">Be Like Georgian!</a>
-            </div>
-          </div>
-
-          <div class="pricing-plan pricing-plan-starter">
-            <header class="plan-header">
-              <p class="plan-name">Starter</p>
-              <p class="plan-price"><span>$</span>399</p>
-              <p class="plan-text">per month. That's just $13 per meal!</p>
-            </header>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>1 meal per day</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Order from 11am to 9pm</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Delivery is free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="close-outline"></ion-icon>
-              </li>
-            </ul>
-            <div class="plan-sign-up">
-              <a href="#" class="btn btn-full">Be Like Georgian!</a>
-            </div>
-          </div>
-
-          <div class="pricing-plan pricing-plan-starter">
-            <header class="plan-header">
-              <p class="plan-name">Starter</p>
-              <p class="plan-price"><span>$</span>399</p>
-              <p class="plan-text">per month. That's just $13 per meal!</p>
-            </header>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>1 meal per day</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Order from 11am to 9pm</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Delivery is free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="close-outline"></ion-icon>
-              </li>
-            </ul>
-            <div class="plan-sign-up">
-              <a href="#" class="btn btn-full">Be Like Georgian!</a>
-            </div>
-          </div>
-        </div>
         <!-- slider endsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
         <div class="container grid">
-          <aside class="plan-details">
+          <p class="pricing-ps-text">
             Prices include all applicable taxes. You can cancel at any time.
             Both plans include the following:
-          </aside>
+          </p>
         </div>
 
         <div class="container grid grid-4-cols">
@@ -628,78 +637,29 @@
       </section>
 
       <!-- CTA -->
-      <section class="section-cta" id="cta">
-        <div class="container">
-          <div class="cta">
-            <div class="cta-text-box">
-              <h2 class="heading-secondary">Get your first meal for free!</h2>
-              <p class="cta-text">
-                Healthy, tasty and hassle-free meals are waiting for you. Start
-                eating well today. You can cancel or pause anytime. And the
-                first meal is on us!
-              </p>
-              <form action="" class="cta-form">
-                <div>
-                  <label for="full-name">Full Name</label>
-                  <input
-                    type="text"
-                    id="full-name"
-                    placeholder="Niko Pirosmani"
-                    required
-                  />
-                </div>
 
-                <div>
-                  <label for="email">Email address</label>
-                  <input
-                    type="email"
-                    id="email"
-                    placeholder="me@example.com"
-                    required
-                  />
-                </div>
-                <div>
-                  <label for="password">Password</label>
-                  <input
-                    type="password"
-                    id="password"
-                    placeholder="Enter Password..."
-                    required
-                  />
-                </div>
-                <div>
-                  <label for="Re-password">Repeat Password</label>
-                  <input
-                    type="password"
-                    id="Re-password"
-                    placeholder="Repeat Password..."
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label for="select-where"> Where did you hear from us?</label>
-                  <select id="select-where" required>
-                    <option value="">Please choose one option:</option>
-                    <option value="friends">Friends and family</option>
-                    <option value="youtube">YouTube video</option>
-                    <option value="podcast">Podcast</option>
-                    <option value="ad">Facebook ad</option>
-                    <option value="others">Others</option>
-                  </select>
-                </div>
-
-                <button class="btn btn-form" type="submit">Sign up now</button>
-              </form>
-            </div>
-
-            <div
-              class="cta-img"
-              role="img"
-              aria-label="Women enjoying food"
-            ></div>
-          </div>
-        </div>
+      <section class="sign-up-section" id="cta">
+        <div class="Main-form-container">
+          <h3 class="main-form-heading">Sign Up</h3>
+          <p class="main-formdescribe">Join Us and Get First Meal For Free</p>
+  
+          <form action="">
+              <div class="input-group">
+                 <input type="text" name="username" placeholder="Username..."> 
+              </div>
+              <div class="input-group">
+                  <input type="email" name="email" placeholder="email..."> 
+               </div>
+               <div class="input-group">
+                  <input type="password" name="mypassword" placeholder="Password..."> 
+               </div>
+  
+               <div class="input-group">
+                  <input type="password" name="confpassword" placeholder="Confirm Password..."> 
+               </div>
+               <button class="submit-btn" type="submit">Sign Up</button>
+          </form>
+      </div>
       </section>
 
       <!-- FOOTER -->
