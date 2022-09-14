@@ -148,3 +148,30 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("activated");
   }
 })
+
+
+// cookies////
+
+let cookieModel = document.querySelector(".cookie-content");
+
+let cancelBtn = document.querySelector(".fa-eject");
+
+let acceptBtn = document.querySelector(".fa-circle-check");
+
+cancelBtn.addEventListener("click", function () {
+  cookieModel.classList.remove("active-cookie")
+})
+
+acceptBtn.addEventListener("click", function () {
+  cookieModel.classList.remove("active-cookie");
+  localStorage.setItem("cookieAccepted", "YES");
+})
+
+setTimeout(() => {
+  let cookieAccpeted = localStorage.getItem("cookieAccepted");
+  if(cookieAccpeted != "YES"){
+    cookieModel.classList.add("active-cookie")
+  }
+}, 2000);
+
+
