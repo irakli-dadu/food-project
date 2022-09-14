@@ -116,3 +116,35 @@ form.addEventListener("submit", event => {
 })
 
 
+// slider with swiper
+
+
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  centerSlide: true,
+  fade: true,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+// scroll-to-top
+
+const toTop = document.querySelector(".scroll-to-top-top");
+
+window.addEventListener("scroll", () => {
+  if(window.pageYOffset > 100) {
+    toTop.classList.add("activated");
+  } else {
+    toTop.classList.remove("activated");
+  }
+})

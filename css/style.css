@@ -1,4 +1,6 @@
+
 /*****************/
+
 /* HEADER */
 /*****************/
 
@@ -417,14 +419,23 @@
 /* PRICING */
 /************/
 
-.pricing-box-wrapper {
+/* .pricing-box-wrapper {
+  max-width: 1120px;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 40px 0;
+} */
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.option-box-1 {
-  max-width: 300px;
+.swiper-slide {
+  /* max-width: 300px; */
   width: 100%;
   height: 300px;
   background-color: #f9df3c;
@@ -439,15 +450,16 @@
 .option-box-header {
   margin-top: 30px;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
   color: black;
 }
 
 .option-box-txt {
   /* margin-top: 20px; */
-  font-size: 15px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  font-weight: 600;
 }
 
 .option-box-lists {
@@ -458,23 +470,24 @@
 
 .option-box-li {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 35px;
   font-weight: 600;
   margin-top: 10px;
+  text-align: center;
 }
 
 .fa-check {
   color: green;
-  font-size: 15px;
+  font-size: 40px;
 }
 
 .fa-xmark {
   color: red;
-  font-size: 15px;
+  font-size: 40px;
 }
 
 .price-per-option-1 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: lightgreen;
@@ -482,11 +495,12 @@
   border-radius: 10px;
   background-color: #f0e7be;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
 .li-list-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -673,6 +687,33 @@ input {
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+
+.scroll-to-top-top {
+  background-color: white;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: lightgreen;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s ease;
+}
+
+.scroll-to-top-top.activated {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+  z-index: 3746328746234;
 }
 
 

@@ -16,12 +16,16 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <title>Georgian Cuisine</title>
     <!-- JS LIBRARIES -->
     <script type="module"src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script defer src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -492,103 +496,109 @@
 
         <!-- need to do SLIDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEeee -->
         <section class="pricing-section">
-          <div class="pricing-box-wrapper">
-            <!-- option 1 -->
-            <div class="option-box-1">
-              <h3 class="option-box-header">Regular</h3>
-              <p class="option-box-txt">Depends on your activity</p>
-              <ul class="option-box-lists">
-                <div class="li-list-div">
-                  <li class="option-box-li">Public Adviser</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Diet Plan</li>
-                  <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Coach</li>
-                  <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Free Delivery</li>
-                  <i class="fa-solid fa-xmark"></i>
-                </div>
-              </ul>
-              <span class="price-per-option-1">75$</span>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <h3 class="option-box-header">Regular</h3>
+                <p class="option-box-txt">Depends on your activity</p>
+                <ul class="option-box-lists">
+                  <div class="li-list-div">
+                    <li class="option-box-li">Public Adviser</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Diet Plan</li>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Coach</li>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Free Delivery</li>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </ul>
+                <span class="price-per-option-1">75$</span>
+              </div>
+
+              <div class="swiper-slide option-box-2">
+                <h3 class="option-box-header">Premium</h3>
+                <p class="option-box-txt">Activity is On!</p>
+                <ul class="option-box-lists">
+                  <div class="li-list-div">
+                    <li class="option-box-li">Public Adviser</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Diet Plan</li>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Coach</li>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Free Delivery</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                </ul>
+                <span class="price-per-option-1">89$</span>
+              </div>
+
+              <div class="swiper-slide option-box-3">
+                <h3 class="option-box-header">Super</h3>
+                <p class="option-box-txt">You're Active!</p>
+                <ul class="option-box-lists">
+                  <div class="li-list-div">
+                    <li class="option-box-li">Public Adviser</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Diet Plan</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Coach</li>
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Free Delivery</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                </ul>
+                <span class="price-per-option-1">119$</span>
+              </div>
+
+              <div class="swiper-slide option-box-4">
+                <h3 class="option-box-header">Hardcore!</h3>
+                <p class="option-box-txt">You Need Us!</p>
+                <ul class="option-box-lists">
+                  <div class="li-list-div">
+                    <li class="option-box-li">Public Adviser</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Diet Plan</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Personal Coach</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="li-list-div">
+                    <li class="option-box-li">Free Delivery</li>
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                </ul>
+                <span class="price-per-option-1">159$</span>
+              </div>
+
             </div>
-            <!-- option-2 -->
-            <div class="option-box-1 option-box-2">
-              <h3 class="option-box-header">Premium</h3>
-              <p class="option-box-txt">Activity is On!</p>
-              <ul class="option-box-lists">
-                <div class="li-list-div">
-                  <li class="option-box-li">Public Adviser</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Diet Plan</li>
-                  <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Coach</li>
-                  <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Free Delivery</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-              </ul>
-              <span class="price-per-option-1">89$</span>
-            </div>
-            <!-- option-3 -->
-            <div class="option-box-1 option-box-3">
-              <h3 class="option-box-header">Super</h3>
-              <p class="option-box-txt">You're Active!</p>
-              <ul class="option-box-lists">
-                <div class="li-list-div">
-                  <li class="option-box-li">Public Adviser</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Diet Plan</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Coach</li>
-                  <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Free Delivery</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-              </ul>
-              <span class="price-per-option-1">119$</span>
-            </div>
-            <!-- option-4 -->
-            <div class="option-box-1 option-box-4">
-              <h3 class="option-box-header">Hardcore!</h3>
-              <p class="option-box-txt">You Need Us!</p>
-              <ul class="option-box-lists">
-                <div class="li-list-div">
-                  <li class="option-box-li">Public Adviser</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Diet Plan</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Personal Coach</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="li-list-div">
-                  <li class="option-box-li">Free Delivery</li>
-                  <i class="fa-solid fa-check"></i>
-                </div>
-              </ul>
-              <span class="price-per-option-1">159$</span>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </section>
 
@@ -739,6 +749,9 @@
           </nav>
         </div>
       </footer>
+      <a href="#" class="scroll-to-top-top">
+        <i class="fa-sharp fa-solid fa-circle-up"></i>
+      </a>
     </main>
     <script defer src="js/script.js"></script>
   </body>
