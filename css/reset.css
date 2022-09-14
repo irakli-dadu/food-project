@@ -20,11 +20,6 @@ body {
   color: #555;
   overflow-x: hidden;
 }
-
-/**********************************/
-/* GENERAL REUSABLE COMPONENTS */
-/**********************************/
-
 .container {
   /* 1140px */
   max-width: 120rem;
@@ -139,10 +134,6 @@ body {
   width: 3rem;
   color: #e67e22;
 }
-
-/********************/
-/* HELPER CLASSES */
-/********************/
 
 .margin-right-sm {
   margin-right: 1.6rem !important;

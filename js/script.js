@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
 /////////////////////////////////////////////////
-// Make mobile navigation work
+// navigation work
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
@@ -119,7 +119,7 @@ form.addEventListener("submit", event => {
 // slider with swiper
 
 
-var swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
