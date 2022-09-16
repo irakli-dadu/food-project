@@ -62,6 +62,13 @@ window.addEventListener("scroll", function () {
 
 // accordion------
 
+const accordionBox = document.getElementsByClassName("accordion-content");
+
+for (let k = 0; k < accordionBox.length; k++) {
+  accordionBox[k].addEventListener('click', function() {
+    this.classList.toggle("accordActive");
+  })
+}
 
 
 

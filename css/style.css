@@ -417,7 +417,59 @@
 
 /* accordion------- */
 
+.accordion-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
 
+.accordion {
+  max-width: 700px;
+  width: 100%;
+}
+
+.accordion .accordion-content {
+  position: relative;
+  margin: 10px 20px;
+}
+
+.accordion .accordion-content .accordion-title {
+  position: relative;
+  background-color: burlywood;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.accordion .accordion-content .accordion-title::before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordion .accordion-content .accordion-txt {
+  font-size: 15px;
+  text-align: justify;
+  position: relative;
+  background-color: #fff;
+  height: 0px;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.accordion .accordion-content.accordActive .accordion-txt {
+  padding: 10px;
+  height: 100px;
+}
+
+.accordion .accordion-content.accordActive .accordion-title::before {
+  content: '-';
+}
 
 /*********************/
 /* TESTIMONIALS */
