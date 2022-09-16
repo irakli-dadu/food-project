@@ -63,34 +63,6 @@ window.addEventListener("scroll", function () {
 // accordion------
 
 
-const accordionContent = document.querySelectorAll(".accordion-content");
-
-accordionContent.forEach((elitem, elindex) => {
-  let accorHeader = elitem.querySelector("header");
-  
-  accorHeader.addEventListener("click", () => {
-    elitem.classList.toggle("openon");
-
-    let accoText = document.querySelector(".accordion-txt");
-    if(elitem.classList.contains('openon')) {
-      accoText.style.height = `${accoText.scrollHeight}px`;
-      elitem.querySelector(".fa-plus").classList.replace("fa-solid", "fa-minus");
-    }else {
-      accoText.style.height = "0px";
-    }
-    removeOpen(elindex);
-  })
-})
-function removeOpen(elindex1) {
-  accordionContent.forEach((elitem2, elindex2) => {
-    if(elindex1 != elindex2) {
-      elitem2.classList.remove("openon");
-
-      let accoText2 = document.querySelector(".accordion-txt");
-      accoText2.style.height = "0px";
-    }
-  })
-}
 
 
 // cta - validation-form

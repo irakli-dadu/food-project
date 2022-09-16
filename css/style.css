@@ -417,63 +417,7 @@
 
 /* accordion------- */
 
-.accordion-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: pink;
-}
 
-.accordion {
-  max-width: 530px;
-  width: 100%;
-  background-color: white;
-  margin: 0 15px;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-}
-
-.accordion .accordion-content {
-  margin: 10px 0;
-  border-radius: 4px;
-  background-color: lightgreen;
-  border: 1px solid brown;
-  overflow: hidden;
-}
-
-.accordion-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 50px;
-  background-color: lightblue;
-  cursor: pointer;
-}
-
-.accordion-span {
-  font-size: 14px;
-  font-weight: 500;
-  color:#e67e22;
-}
-
-.fa-plus {
-  font-size: 15px;
-  color: gray;
-}
-
-.accordion-content .accordion-txt {
-  height: 0;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  padding: 0 15px;
-  transition: all 0.2s linear;
-}
-
-.accordion-content.openon {
-  padding-bottom: 10px;
-}
 
 /*********************/
 /* TESTIMONIALS */
