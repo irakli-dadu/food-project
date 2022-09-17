@@ -307,7 +307,6 @@
 .step-img-box::before {
   width: 70%;
   height: 20%;
-  /* Trick to give height */
   padding-bottom: 60%;
   background-color: #fdf2e9;
   z-index: -2;
@@ -315,7 +314,6 @@
 
 .step-img-box::after {
   width: 45%;
-  /* Trick to give height */
   padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
@@ -421,7 +419,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
+  background-image: url('https://e66fkes8nnn.exactdn.com/wp-content/uploads/2021/05/Pirosmani_Sufra-min.jpg?strip=all&lossy=1&ssl=1');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  filter: sepia(50%);
+  border-radius: 20px;
 }
 
 .accordion {
@@ -436,10 +440,12 @@
 
 .accordion .accordion-content .accordion-title {
   position: relative;
-  background-color: burlywood;
+  background-color: #e26465;
   color: #fff;
   cursor: pointer;
   font-size: 25px;
+  margin-top: 40px;
+  height: 40px;
 }
 
 .accordion .accordion-content .accordion-title::before {
@@ -452,10 +458,10 @@
 }
 
 .accordion .accordion-content .accordion-txt {
-  font-size: 15px;
+  font-size: 18px;
   text-align: justify;
   position: relative;
-  background-color: #fff;
+  background-color: #fedc83;
   height: 0px;
   overflow: hidden;
   transition: 0.5s;
@@ -464,7 +470,7 @@
 
 .accordion .accordion-content.accordActive .accordion-txt {
   padding: 10px;
-  height: 100px;
+  height: 110px;
 }
 
 .accordion .accordion-content.accordActive .accordion-title::before {
@@ -534,16 +540,6 @@
 /*************/
 /* PRICING */
 /************/
-
-/* .pricing-box-wrapper {
-  max-width: 1120px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: gray;
-  padding: 40px 0;
-} */
 
 .swiper {
   margin-left: auto;

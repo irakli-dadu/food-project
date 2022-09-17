@@ -129,17 +129,8 @@
     justify-content: center;
     transform: translateX(100%);
     transition: all 0.5s ease-in;
-
-    /* Hide Navigation */
-    /* display: none; */
-
-    /* 1) Hide it visually */
     opacity: 0;
-
-    /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
-
-    /* Hide it from screen readers */
     visibility: hidden;
   }
 
